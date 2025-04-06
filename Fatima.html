@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Work</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-image: url(photo-1599270613570-a620f2e59f75\ \(1\).avif);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        nav {
+            padding: 10px 20px;
+            background-color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline;
+        }
+        li a {
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            transition-duration: .3s;
+            padding: 10px 25px;
+        }
+        li a:hover {
+            font-size: 25px;
+            background-color: rgb(240, 209, 5);
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column{
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        .column1{
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 20px;
+        }
+        .image-placeholder {
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em  0;
+        }
+        .photo {
+            width: 230px;
+            height: 200px;
+            transition-duration: .5s;
+        }
+        .photo:hover {
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            width: 200px;
+        }
+        .image {
+            display: flex;
+            gap: 10px;
+        }
+        .image img {
+            width: 100px;
+        }
+        p{
+            color: #0f0d0c;
+            font-style: italic;
+        }
+        h2{
+            color: black;
+        }
+        b{
+            color: rgb(245, 238, 238);
+        }
+        label{
+            color: rgb(245, 238, 238);
+        }
+        .logo{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fatima's Website</h1>
+        <img src="759e4321-4186-4d3b-9170-61c34eb78ae8.jpg" alt="" class="logo">
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <div class="column1">
+            <h2>About Me</h2>
+            <p>Photo of me:</p>
+            <div class="image-placeholder">
+                <img src="2.jpg" alt="" class="photo">
+            </div>
+            <p style="color: #fff;">My Name is Fatima B. Apolonio <br> you can call me "Imang" </p>
+            <h2>More Photos</h2>
+            <p>My Pictures</p>
+            <div class="image">
+                <img src="1.jpg" alt="Image 1" class="photo">
+                <img src="3.jpg" alt="Image 2" class="photo">
+                <img src="4.jpg" alt="Image 3" class="photo">
+            </div><br>
+            <label for="">Personal Information</label>
+            <p><b>Address: </b>San Fernando, Laur, N.E</p>
+            <p><b>Age: </b>18 years old</p>
+            <p><b>Sex: </b>Female</p>
+            <p><b>Height: </b>5'5 ft</p>
+            <p><b>Weigth: </b>65 kg</p>
+            <p><b>Nationality: </b>Filipino</p>
+        </div>
+
+        <div class="column">
+            <h2>Hobbies</h2>
+            <p>Photos of What i always do</p>
+            <div class="crt">
+                <img src="b606791e-8b2d-4a20-a26b-5f873bda7a73.jpg" alt="College Image" style="width: 300px;" class="hobbie">
+            </div>
+            <p>Cooking, watching, eating, and sleeping.</p>
+
+            <h2>More Information about me</h2>
+            <p>Story time!</p>
+            <div class="image-placeholder">
+                <img src="806cc5e3-8630-4281-9351-dd54bb5431b0.jpg" alt="" style="width: 250px; " class="photo">
+            </div>
+            <p>Hi, my name is Fatima, but you can call me "Imang" because that's my nickname. Yuck! My favorite color is black but sometimes white. Like what you see in the picture, I like to cook, watch dramas and movies, etc., and I also like to sleep and additionally to eat. Furthermore, I am an organizer, and I tend to make sure everything is organized. And sometimes I prepare to be alone 😚, so yeah, thank you for reading this. Very appreciated!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 All Rights CRT creator by Fatima</p>
+    </footer>
+</body>
+</html>
